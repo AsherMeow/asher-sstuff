@@ -1,3 +1,40 @@
+.logo {
+    height: 300px;
+    width: 600;
+    animation-name: Logo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    display: block;
+    margin: auto;
+    rotate: -15deg;
+    transform: translate(-133px, -725px) scale(.7);
+    }
+@keyframes Logo {
+    0% {
+    height: 300px;
+    width: 600px;
+    padding-top: 0px;}
+
+    33% {
+    height: 220px;
+    width: 670px;
+    padding-top: 40px;}
+
+    50% {
+    height: 330px;
+    width: 550px;
+    padding-top: 0px;}
+
+    75% {
+    height: 250px;
+    width: 650px;
+    padding-top: 25px;}
+
+    100% {
+    height: 300px;
+    width: 600px;
+    padding-top: 0px;}
+}
 .main-div {
     width: 900px;
     height: 600px;
@@ -165,7 +202,7 @@ button:hover {
 button:active {
     background-color: rgb(70, 70, 70);
 }
-.silly {
+.silly, .art {
     overflow: auto;
     height: 200px;
     border-radius: 20px;
@@ -179,25 +216,55 @@ button:active {
     margin-bottom: 2px;
     scrollbar-color: pink;
     scrollbar-arrow-color: white;
+    background-color: white;
 }
 ::-webkit-scrollbar {
     width: 12px;
     height: 12px;
     }
-    ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: rgb(145, 11, 11);  
     border-radius: 10px;
-    }
+}
     
-    ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: rgb(120, 10, 10);  
-    }
+}
 
-    .artdump-menu {
-        display: flex;
-        
+.artdump-menu {
+    display: flex;
+    flex-direction: column;
     }
-    .art-h {
-        text-align: right;
-        display: block;
-    }
+.art-h {
+    flex: 1;
+    display: inline;
+}
+.art-h1{
+    text-align: right;
+}
+.separator {
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    text-align: center;
+}
+.art {
+    height: 400px;
+    padding: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.artwork {
+    width: 178.92px;
+    height: 178.92px;
+    object-fit: contain;
+    background-color: rgba(30, 0, 255, 0.154);
+    margin: auto;
+}
+.warning {
+    background-color: rgb(255, 217, 0);
+    border-style: solid; 
+    border-radius: 10px;
+    font-family: Nunito;
+}
