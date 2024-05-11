@@ -1,0 +1,203 @@
+.main-div {
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
+    margin-top: 5%;
+}
+.nav, .art-h, .interests-box, .yay-no, .buttons-border, .pfp-pride, .socials-border, .info {
+    background-color: white;
+    border-style: outset;
+    border-radius: 10px;
+    border-width: 5px;
+    padding: 5px;
+}
+.info-div-border {
+    background-color: white;
+    border-style: outset;
+    border-radius: 20px;
+    border-width: 5px;
+    padding: 5px;
+    height: 620px;
+}
+.nav-div-border {
+    background-color: white;
+    border-style: outset;
+    border-radius: 20px;
+    padding: 5px;
+    border-width: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+.menu, .info-div, .artdump-menu {
+    margin: auto;
+    background-color: lightblue;
+    border-radius: 20px;
+    padding: 10px;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: white;
+}
+.info-div {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-div {
+    background-color: lightcoral;
+    padding: 10px;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: white;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 70px 1fr 2fr;
+}
+.pfp-socials{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: -3%;
+}
+.pfp-pride {
+    width: 78%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.profile-picture {
+    display: block;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    height: 190px;
+}
+.pride-flags {
+    margin: auto;
+    margin-left: 23%;
+}
+.socials-border {
+    width: 78%;
+    margin: auto;
+}
+.socials, .interests {
+    padding: 5px;
+    border-style: dashed;
+    margin: auto;
+    border-radius: 20px;
+}
+h1 {
+    font-family: Nunito;
+    text-align: center;
+    margin: 0px;
+}
+a {
+    font-family: Nunito;
+    text-align: center;
+    margin: 1px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    display: block;
+    transition: color 0.5s, background-color 0.5s, border-radius 0.5s;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    background-color:black ;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+.info-yay {
+    flex: 3;
+    display: grid;
+    grid-template-rows: 4fr 5fr;
+}
+.info {
+    margin-bottom: 5px;
+}
+.yay-no {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.like {
+    border-right-style: dashed;
+}
+p {
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Nunito;
+}
+li {
+    margin: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: Nunito;
+}
+.nav {
+    display: block;
+    margin-bottom: 5px;
+}
+.buttons-border {
+    display: block;
+    margin: 5px;
+}
+button {
+    display: block;
+    border-radius: 10px;
+    border-style: solid;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 2px;
+    font-family: Nunito;
+    font-weight: bold;
+    background-color: whitesmoke;
+    color:black;
+    transition: background-color 0.5s, color 0.5s;
+}
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+}
+button:active {
+    background-color: rgb(70, 70, 70);
+}
+.silly {
+    overflow: auto;
+    height: 200px;
+    border-radius: 20px;
+    padding: 6px;
+    border-top: 2px;
+    border-top-color: rgb(202, 202, 202);
+    border-top-style: solid;
+    border-bottom: 2px;
+    border-bottom-color: rgb(202, 202, 202);
+    border-bottom-style: solid;
+    margin-bottom: 2px;
+    scrollbar-color: pink;
+    scrollbar-arrow-color: white;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    }
+    ::-webkit-scrollbar-thumb {
+    background: rgb(145, 11, 11);  
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgb(120, 10, 10);  
+    }
+
+    .artdump-menu {
+        display: flex;
+        
+    }
+    .art-h {
+        text-align: right;
+        display: block;
+    }
