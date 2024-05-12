@@ -268,3 +268,9 @@ button:active {
     border-radius: 10px;
     font-family: Nunito;
 }
+.artwork:hover {
+    cursor: pointer;
+}
+.artwork:active {
+    transform: scale(1.6);
+}
