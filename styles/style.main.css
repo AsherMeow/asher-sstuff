@@ -64,7 +64,7 @@ h1 {
 .rc, .u1, .otc {
     font-size: 20px;
 }
-.disclaimer-box, .nav {
+.disclaimer-box, .nav, .univ1buttons {
     padding: 20px;
     background-color: black;
     border-radius: 10px;
@@ -96,4 +96,15 @@ p {
 }
 button:hover {
     cursor: pointer;
+}
+a {
+    background-color: black;
+    border: white solid ;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }
